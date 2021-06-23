@@ -25,7 +25,6 @@ class App extends React.Component {
             .then((response) => response.json())
             .then((json) => {
 
-                console.log(json)
 
             Alert.alert(
                 "Welcome "+json.name +" your email is " + json.email
